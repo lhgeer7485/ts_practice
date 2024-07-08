@@ -1,9 +1,9 @@
+const hobbies: string[] = ["sports", "cooking"];
+const [hobby1, hobby2, ...remain] = hobbies;
+
 const person = {
-  name: "lee",
+  firstName: "John",
   age: 30,
-  hobbies: ["sports", "coking"],
 };
 
-let arr: string[];
-
-console.log(person.name);
+const { firstName: userName, age } = person;
