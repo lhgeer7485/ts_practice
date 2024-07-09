@@ -6,4 +6,10 @@ const person = {
   age: 30,
 };
 
-const { firstName: userName, age } = person;
+let arr: string[];
+
+console.log(person.name);
+
+for (const hobby of person.hobbies) {
+  console.log(hobby);
+}
